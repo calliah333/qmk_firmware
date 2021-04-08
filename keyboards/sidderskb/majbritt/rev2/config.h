@@ -31,8 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 16
 
 #define VIAL_KEYBOARD_UID {0x01, 0xD1, 0x91, 0x2C, 0xC0, 0xF8, 0xDE, 0xB1}
-#define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
-#define VIAL_UNLOCK_COMBO_COLS { 0, 5 }
+
 /*
  * Keyboard Matrix Assignments
  *
