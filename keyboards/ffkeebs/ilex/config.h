@@ -31,9 +31,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 8
 #define MATRIX_COLS 6
 
-//                        0 ,  1 , 2  , 3 , 4 , 5
-#define MATRIX_ROW_PINS { A1, D15, A2 , A0}
-#define MATRIX_COL_PINS { D1, A3 , D14, D6, D7, D16 }
+//                        0 , 1 , 2 , 3 , 4 , 5
+#define MATRIX_ROW_PINS { F6, B1, F5, F7}
+#define MATRIX_COL_PINS { D3, F4, B3, D7, E6, B2}
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -43,18 +43,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #define USE_SERIAL
 #define SERIAL_USE_MULTI_TRANSACTION
-#define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
+#define SOFT_SERIAL_PIN D2  // or D1, D2, D3, E6
 
 #define SPLIT_USB_DETECT
 
 
 
-#define BACKLIGHT_PIN D8
+#define BACKLIGHT_PIN B4
 #define BACKLIGHT_LEVELS 3
 #define BACKLIGHT_BREATHING
 
 #define ENCODERS_PAD_A { D4 }
-#define ENCODERS_PAD_B { D5 }
+#define ENCODERS_PAD_B { C6 }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
