@@ -14,6 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
+#include "encoder.h"
 
 // Defines names for use in layer keycodes and the keymap
 enum layer_names {
@@ -114,23 +115,4 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     }
 
     return true;
-}
-
-
-
-//Encoders
-void encoder_update_user(uint8_t index, bool clockwise) {
-    if (index == 0) { //LEFT
-        if (clockwise) {
-            tap_code(KC_VOLU);
-        } else {
-            tap_code(KC_VOLD);
-        }
-    } else if (index == 1) { // RIGHT
-        if (clockwise) {
-            tap_code(KC_PGDOWN);
-        } else {
-            tap_code(KC_PGUP);
-        }
-    }
 }
