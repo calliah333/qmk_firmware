@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------|--------|--------|--------|--------|--------|                    |--------|--------|--------|--------|--------|--------|
      KC_GESC, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    /*Encoder Buttons*/  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RBRC,
   //|--------|--------|--------|--------|--------|--------|--------|  |--------|--------|--------|--------|--------|--------|--------|
-                                KC_LGUI, KC_RSE,  KC_SPC,  KC_NO,      KC_NO,  KC_ENT,  KC_LWR,  KC_BSPC
+                                KC_LGUI, KC_RSE,  KC_SPC,  KC_NO,      KC_NO,   KC_ENT, KC_LWR,   KC_BSPC
                              //|--------|--------|--------|--------|  |--------|--------|--------|--------|
 
   ),
