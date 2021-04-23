@@ -59,6 +59,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
 
+//Define I2C adress for OLED
+#define MY_I2C_ADDRESS (0X3C << 1)
+
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 //#define MATRIX_HAS_GHOST
 
