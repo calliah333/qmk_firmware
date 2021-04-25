@@ -49,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 
-#define BACKLIGHT_PIN B5
+#define BACKLIGHT_PIN B4
 #define BACKLIGHT_LEVELS 3
 #define BACKLIGHT_BREATHING
 
