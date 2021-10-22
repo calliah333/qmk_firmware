@@ -48,6 +48,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION ROW2COL
 
+#define ENCODERS_PAD_A { A1 }
+#define ENCODERS_PAD_B { A2 }
+
 
 //#define LED_NUM_LOCK_PIN B0
 //#define LED_CAPS_LOCK_PIN B1
