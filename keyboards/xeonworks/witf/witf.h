@@ -30,7 +30,7 @@
 
 
 
-//! This is going to make me kms
+//! i regret everything
 
 #define  XXXXX KC_NO
 
