@@ -28,7 +28,7 @@
  */
 //                        0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10, 11, 12, 13, 14, 15
 #define MATRIX_ROW_PINS { B6, C6, B5, B1, D7 }
-#define MATRIX_COL_PINS { E6, F1, F4, F5, F6, C7, B4, F7, B0, B2, B3, D6, D5, D2, D5, D3 }
+#define MATRIX_COL_PINS { E6, F1, F4, F5, F6, C7, B4, F7, B0, B2, B3, D6, D4, D2, D5, D3 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
