@@ -22,3 +22,7 @@ POINTING_DEVICE_ENABLE = yes
 POINTING_DEVICE_DRIVER = pimoroni_trackball
 
 LTO_ENABLE = yes # LTO for decreased firmware size
+
+UNICODE_ENABLE = yes
+UNICODEMAP_ENABLE = no
+UCIS_ENABLE = no

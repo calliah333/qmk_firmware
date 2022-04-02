@@ -48,6 +48,7 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+#define UNICODE_SELECTED_MODES UC_WINC , UC_MAC, UC_LNX
 
 /*
  * Feature disable options
