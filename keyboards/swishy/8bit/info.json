@@ -1,6 +1,6 @@
 {
     "manufacturer": "Sleepdealer",
-    "keyboard_name": "8bit",
+    "keyboard_name": "8Bit - Soldered",
     "maintainer": "Sleepdealr",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
@@ -8,20 +8,28 @@
         "bootmagic": true,
         "command": false,
         "console": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": true,
+        "audio": true
+    },
+    "rgblight": {
+        "led_count": 1,
+        "pin": "E6",
+        "animations":{
+            "all": true
+        }
     },
     "matrix_pins": {
-        "cols": ["C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2"],
-        "rows": ["D1", "D1", "D1", "D1", "D1"]
+        "cols": [ "F7", "F5", "F6", "B6", "B5", "B4", "D7", "D6", "D4", "D5", "D3", "D2", "D1", "D0"],
+        "rows": [ "F0", "C7", "C6", "F4", "F1" ]
     },
     "processor": "atmega32u4",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "pid": "0xDE88",
+        "vid": "0x8B17"
     },
     "layouts": {
         "LAYOUT_60_ansi": {
