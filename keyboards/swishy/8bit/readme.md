@@ -1,12 +1,12 @@
-# 8bit
+# 8Bit
 
-![8bit](imgur.com image replace me!)
+![8Bit](imgur.com image replace me!)
 
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Sleepdealer](https://github.com/Sleepdealr)
-* Hardware Supported: 8Bit keyboard
-* Hardware Availability: GB
+* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
 

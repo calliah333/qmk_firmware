@@ -3,10 +3,12 @@
 
 #pragma once
 
+#pragma once
 
 #define AUDIO_PIN B7
 #ifdef AUDIO_ENABLE
-#   define ZELDA_TREASURE  Q__NOTE(_G5),     \
+#   define ZELDA_TREASURE  \
+    Q__NOTE(_G5),     \
     Q__NOTE(_A5),    \
     Q__NOTE(_B5),     \
     Q__NOTE(_CS6),    \
@@ -59,20 +61,5 @@
     Q__NOTE(_AS6),     \
     Q__NOTE(_B6),    \
     H__NOTE(_C7)
-#   define STARTUP_SONG SONG(ZELDA_TREASURE)
+    #define STARTUP_SONG SONG(ZELDA_TREASURE)
 #endif
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
-
-/* disable debug print */
-//#define NO_DEBUG
-
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
