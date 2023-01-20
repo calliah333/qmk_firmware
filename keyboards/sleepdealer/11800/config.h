@@ -3,6 +3,8 @@
 
 #pragma once
 
+#include "config_common.h"
+
 #define PS2_CLOCK_PIN B6
 #define PS2_DATA_PIN  B7
 
